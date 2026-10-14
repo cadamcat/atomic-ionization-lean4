@@ -32,6 +32,8 @@ lake exe cache get
 
 The first command fetches the compiled Mathlib cache. The script builds the library, including the vendored OpenAI modules, and prints the axioms of the final theorem and of each package theorem ([Verification/Axioms.lean](Verification/Axioms.lean)). It fails if any of them uses `sorryAx` or an axiom other than the three above.
 
+The checks of release v1.0.0 (fresh-clone build, kernel replay with `leanchecker --fresh`, Comparator with the nanoda kernel, and controls) are recorded in [docs/verification.md](docs/verification.md).
+
 ## Layout
 
 [Blueprint/Main.lean](AtomicIonization/Blueprint/Main.lean) derives `Statement` from the package theorems `AtomicIonization.Blueprint.Packages.*`, whose statements are in [Blueprint/Interfaces.lean](AtomicIonization/Blueprint/Interfaces.lean).
