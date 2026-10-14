@@ -1,0 +1,4 @@
+# Third-party sources
+
+- **Mathlib** ([leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4)), Apache-2.0, fetched at the revision in [lake-manifest.json](lake-manifest.json). It is a build dependency; no Mathlib source is copied here.
+- **OpenAI's mathematics library** ([openai/math](https://github.com/openai/math), directory `lean`), Apache-2.0 ([OAI/LICENSE](OAI/LICENSE)). The directories `OAI/Analysis/CoulombRadii/` and `OAI/Analysis/CoulombIonization/` are copied unchanged from commit `1581d4cbdd69a0faf34b2089614fe2a814316a6a` (identical to commit `adc7f1241b42e322a6451854ab7e4b4c146bf78a` for these paths). Their import closure consists of these two directories and Mathlib. They supply the many-electron form domain, the spectral and variational theory of the atom, and OpenAI's proofs of the generalized ionization asymptotics (`OAI.CoulombAtom.generalized_ionization`) and of the generalized outer radii, which this formalization uses.
