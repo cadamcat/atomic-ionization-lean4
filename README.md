@@ -1,3 +1,5 @@
+[English](README.md) | [简体中文](README_zh.md)
+
 # atomic-ionization-lean4
 
 A Lean 4 formalization of uniform ionization bounds and generalized ionization asymptotics for the full nonrelativistic Coulomb atom with two electron spin states.
