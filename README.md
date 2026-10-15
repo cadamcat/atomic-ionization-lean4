@@ -4,7 +4,7 @@ A Lean 4 formalization of uniform ionization bounds and generalized ionization a
 
 - **Author:** Yao Xu ([@cadamcat](https://github.com/cadamcat)); see [authorship and attribution](AUTHORS.md).
 - **Mathematics:** OpenAI, *Uniform excess charge for Coulomb molecules and the outer radius of neutral atoms* (2026), Theorem 1.2 and Corollary 1.3, and *Generalized ionization energies for full Coulomb atoms* (2026), Theorem 1.1. The manuscripts and the Lean libraries this formalization builds on are in [openai/math](https://github.com/openai/math).
-- Developed with AI assistance (Claude Code and Codex); all proofs are verified by the Lean 4 kernel.
+- Developed with AI assistance; all proofs are verified by the Lean 4 kernel.
 
 ## Main result
 
